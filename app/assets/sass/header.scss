@@ -1,6 +1,5 @@
 /*logo - start */
 .logo {
-	border: 1px dashed blue;
 	width: 272px;
 	height: 186px;
 	margin-left: 2%;
@@ -16,7 +15,6 @@
 .nav {
 	font-family: 'Nautilus Pompilius';
 	font-size: 40px;
-	border: 1px dashed blue;
 	float: right;
 	margin-right: 194px;
 	margin-top: 30px;
@@ -52,7 +50,6 @@
 	margin-top: 12px;
 	position: relative;
 	width: 585px;
-	border: 1px dashed blue;
 }
 .choose_city-caption {
 	width: 99px;
@@ -76,6 +73,7 @@ select {
 	font-size: 26px;
 	color: #46c2c6;
 	padding-left: 22px;
+	position: relative;
 }
 
 .choose_city__select {
@@ -102,11 +100,26 @@ select {
 }
 
 .select_language {
-	background-color: black;
 	display: inline-block;
 	width: 130px;
 	height: 50px;
 	float: right;
-	
+	position: absolute;
+	right: 0;
+	border-radius: 8px;
+	border: solid 1px #efefef;
 }
-
+.select_language__link {
+	display: inline-block;
+	width: 40%;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #73c2d3;
+	text-align: center;
+	padding-top: 7%;
+	padding-left: 4%;
+	&:focus {
+		color: #6c4527;
+	}
+}
