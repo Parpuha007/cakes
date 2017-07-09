@@ -7,31 +7,33 @@
 </head>
 <body>
 	<div class="wrapper">
-		<div class="container">
 			<header class="header">
 				<!-- Logo -->
 				<div class="logo">
 					<a href="#" class="logo-a"><img src="../img/png/logo.png" alt="Zhanrua-logo" class="logo-img"></a>
 				</div>
 				<!-- Choose your city -->
-					<div class="choose_city">
-						<div class="choose_city-caption"><span>Ваш город: </span></div>
-						<div class="choose_city__select">
-							<select name="select" id="choose_city">
-							    <option value="Санкт-Петербург">Санкт-Петербург</option>
-							    <option value="Москва">Москва</option>
-							    <option value="Казань">Казань</option>
-							    <option value="Сочи">Сочи</option>
-							    <option value="Калининград">Калининград</option>
-							    <option value="Владивосток">Владивосток</option>		
-							</select>
-							<a class="choose_city__select-button"></a>
-						</div>
-						<div class="select_language">
-							<a href="#" class="select_language__link">RU</a>
-							<a href="#" class="select_language__link">ENG</a>
-						</div>
+				<div class="choose_city">
+					<div class="choose_city-caption"><span>Ваш город: </span></div>
+					<div class="choose_city__select">
+						<select name="select" id="choose_city">
+						    <option value="Санкт-Петербург">Санкт-Петербург</option>
+						    <option value="Москва">Москва</option>
+						    <option value="Казань">Казань</option>
+						    <option value="Сочи">Сочи</option>
+						    <option value="Калининград">Калининград</option>
+						    <option value="Владивосток">Владивосток</option>		
+						</select>
+						<div class="choose_city__select-button"></div>
 					</div>
+					<div class="select_language">
+						<a href="#" class="select_language__link">RU</a>
+						<a href="#" class="select_language__link">ENG</a>
+					</div>
+					<div class="basket">
+						<a href="#" class="basket-link"></a>
+					</div>
+				</div>
 				<!-- Navigation -->
 				<nav class="nav">
 					<ul class="nav-list">
@@ -44,7 +46,31 @@
 					</ul>
 				</nav>
 			</header>
+				
+			<section class="s-address">
+				<hr class="hr-1">
+				<div class="address">
+					<div class="address_caption"><span>Ваш адрес: </span></div>
+					<div class="address_input">
+						<input type="text" placeholder="Введите сюда ваш адрес">
+						<div class="address_geo-logo"></div>
+					</div>
+					<button class="change_address-button">Изменить адрес доставки</button>
+					<a href="#" class="">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+    						<path fill="#46C2C6" fill-rule="evenodd" d="M11.579 8.444H20V0h-8.421v8.444zM0 8.444h8.421V0H0v8.444zM11.579 19H20v-8.444h-8.421V19zM0 19h8.421v-8.444H0V19z"/>
+						</svg>
+					</a>
+					<a href="#" class="">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="19" viewBox="0 0 24 19">
+    						<path fill="#DCDCDC" fill-rule="evenodd" d="M8 5h16V.001H8V5zM0 5h6V.001H0V5zm8 7h16V7.001H8V12zm-8 0h6V7.001H0V12zm8 7h16v-5H8v5zm-8 0h6v-5H0v5z"/>
+						</svg>
+					</a>
+					
+				</div>
+			</section>	
+				
+			
 		</div>
-	</div>
 </body>
 </html>
