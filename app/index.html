@@ -7,14 +7,19 @@
 </head>
 <body>
 	<div class="wrapper">
+		<div class="content">
 			<header class="header">
 				<!-- Logo -->
 				<div class="logo">
-					<a href="#" class="logo-a"><img src="../img/png/logo.png" alt="Zhanrua-logo" class="logo-img"></a>
+					<a href="#" class="logo-a">
+						<img src="../img/png/logo.png" alt="Zhanrua-logo" class="logo-img">
+					</a>
 				</div>
 				<!-- Choose your city -->
 				<div class="choose_city">
-					<div class="choose_city-caption"><span>Ваш город: </span></div>
+					<div class="choose_city-caption">
+						<span>Ваш город: </span>
+					</div>
 					<div class="choose_city__select">
 						<select name="select" id="choose_city">
 						    <option value="Санкт-Петербург">Санкт-Петербург</option>
@@ -30,47 +35,238 @@
 						<a href="#" class="select_language__link">RU</a>
 						<a href="#" class="select_language__link">ENG</a>
 					</div>
-					<div class="basket">
-						<a href="#" class="basket-link"></a>
-					</div>
+					<a href="#" class="basket-link"></a>
+					
 				</div>
 				<!-- Navigation -->
 				<nav class="nav">
 					<ul class="nav-list">
-						<li class="nav-item"><a href="#" class="nav-link">О компании</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Меню</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Акции</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Магазины</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Франшиза</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">О компании</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Меню</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Акции</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Магазины</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Франшиза</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Контакты</a>
+						</li>
 					</ul>
 				</nav>
 			</header>
 				
 			<section class="s-address">
-				<hr class="hr-1">
 				<div class="address">
-					<div class="address_caption"><span>Ваш адрес: </span></div>
+					<div class="address_caption">
+						<span>Ваш адрес: </span>
+					</div>
 					<div class="address_input">
 						<input type="text" placeholder="Введите сюда ваш адрес">
 						<div class="address_geo-logo"></div>
 					</div>
 					<button class="change_address-button">Изменить адрес доставки</button>
-					<a href="#" class="">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
-    						<path fill="#46C2C6" fill-rule="evenodd" d="M11.579 8.444H20V0h-8.421v8.444zM0 8.444h8.421V0H0v8.444zM11.579 19H20v-8.444h-8.421V19zM0 19h8.421v-8.444H0V19z"/>
-						</svg>
-					</a>
-					<a href="#" class="">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="19" viewBox="0 0 24 19">
-    						<path fill="#DCDCDC" fill-rule="evenodd" d="M8 5h16V.001H8V5zM0 5h6V.001H0V5zm8 7h16V7.001H8V12zm-8 0h6V7.001H0V12zm8 7h16v-5H8v5zm-8 0h6v-5H0v5z"/>
-						</svg>
-					</a>
-					
+					<div class="box-icon">
+						<a href="#" class="box-icon-link" id="btn-1">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+	    						<path id="p-1" fill="#46C2C6" fill-rule="evenodd" d="M11.579 8.444H20V0h-8.421v8.444zM0 8.444h8.421V0H0v8.444zM11.579 19H20v-8.444h-8.421V19zM0 19h8.421v-8.444H0V19z"/>
+							</svg>
+						</a>
+						<a href="#" class="box-icon-link" id="btn-2">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="19" viewBox="0 0 24 19">
+	    						<path id='p-2' fill="#dcdcdc" fill-rule="evenodd" d="M8 5h16V.001H8V5zM0 5h6V.001H0V5zm8 7h16V7.001H8V12zm-8 0h6V7.001H0V12zm8 7h16v-5H8v5zm-8 0h6v-5H0v5z"/>
+							</svg>
+						</a>
+					</div>
 				</div>
-			</section>	
-				
-			
+			</section>
+			<section class="s-main">
+				<aside class="menu_sidebar">
+					<ul class="sidebar-list">
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_10.svg" class="sidebar-img"  alt="Sale">
+								<span>Акции</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_11.svg" class="sidebar-img" alt="Menu">
+								<span>Все меню</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_8.svg" class="sidebar-img" alt="Baking">
+									<span>Сдоба</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_9.svg" class="sidebar-img" alt="Puff">
+									<span>Слойка</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_2.svg" class="sidebar-img" alt="Candies">
+									<span>Кондитерская</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon.svg" class="sidebar-img" alt="Cookies">
+									<span>Печенье</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_3.svg" class="sidebar-img" alt="Drinks">
+									<span>Напитки</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_4.svg" class="sidebar-img" alt="Toppings">
+									<span>Топпинги</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_5.svg" class="sidebar-img" alt="Milk">
+								<span>Молочная продукция</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_6.svg" class="sidebar-img" alt="Pies">
+								<span>Пироги</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">
+								<img src="img/svg/icon_7.svg" class="sidebar-img" alt="Cakes">
+								<span>Торты на заказ</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">Индивидуальный заказ</a>
+						</li>
+						<li class="sidebar-item">
+							<a href="#" class="sidebar-link">Оптовые закупки</a>
+						</li>
+					</ul>
+				</aside>
+				<div class="container">
+					<div class="prod-item">
+						<img src="../img/png/prod-1.png" alt="">
+						<div class="prod-container">
+							<span>Акции</span>
+							<p class="item-desc">Большой американо и ванильный эклер от "Жан Руа" по цене стандартного кофе!</p>
+							<div class="price">
+								<p class="big-price">100 <span>руб.</span></p>
+								<button class="order">Заказать</button>
+							</div>
+						</div>
+					</div>
+					<div class="prod-item">
+						<img src="../img/png/prod-2.png" alt="">
+						<div class="prod-container">
+							<span>Акции</span>
+							<p class="item-desc">Сочное лето в Жан Руа Натуральный Морс клюква</p>
+							<div class="price">
+								<p class="big-price">69 <span>руб.</span></p>
+								<button class="order">Заказать</button>
+							</div>
+						</div>
+					</div>
+					<div class="prod-item">
+						<img src="../img/png/prod-3.png" alt="">
+						<div class="prod-container">
+							<span>Акции</span>
+							<p class="item-desc">Четвертый пирог в подарок<br> <span>При покупке 3 пирогов</span></p>
+							<div class="price">
+								<p class="big-price"> <span></span></p>
+								<button class="order">Заказать</button>
+							</div>
+						</div>
+					</div>
+					<div class="prod-item">
+						<img src="../img/png/prod-4.png" alt="">
+						<div class="prod-container">
+							<span>Акции</span>
+							<p class="item-desc">Подарочные сертификаты с номиналом</p>
+							<div class="price">
+								<p class="big-price">1000 <span>руб.</span></p>
+								<button class="order">Заказать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="prod-item">
+						<img src="../img/png/prod-3.png" alt="">
+						<div class="prod-container">
+							<span>Акции</span>
+							<p class="item-desc">Четвертый пирог в подарок<br> <span>При покупке 3 пирогов</span></p>
+							<div class="price">
+								<p class="big-price"> <span></span></p>
+								<button class="order">Заказать</button>
+							</div>
+						</div>
+					</div>
+					<div class="prod-item">
+						<img src="../img/png/prod-1.png" alt="">
+						<div class="prod-container">
+							<span>Акции</span>
+							<p class="item-desc">Большой американо и ванильный эклер от "Жан Руа" по цене стандартного кофе!</p>
+							<div class="price">
+								<p class="big-price">100 <span>руб.</span></p>
+								<button class="order">Заказать</button>
+							</div>
+						</div>
+					</div>
+					<div class="prod-item">
+						<img src="../img/png/prod-4.png" alt="">
+						<div class="prod-container">
+							<span>Акции</span>
+							<p class="item-desc">Подарочные сертификаты с номиналом</p>
+							<div class="price">
+								<p class="big-price">1000 <span>руб.</span></p>
+								<button class="order">Заказать</button>
+							</div>
+						</div>
+					</div>
+					<div class="prod-item">
+						<img src="../img/png/prod-2.png" alt="">
+						<div class="prod-container">
+							<span>Акции</span>
+							<p class="item-desc">Сочное лето в Жан Руа Натуральный Морс клюква</p>
+							<div class="price">
+								<p class="big-price">69 <span>руб.</span></p>
+								<button class="order">Заказать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
+	</div>
+		<footer class="page-footer">
+			<div class="footer-container">
+				<table>
+					
+				</table>
+			</div>
+		</footer>
+		<script src="libs/jquery/dist/jquery.min.js"></script>
+		<script src="js/common.js"></script>
 </body>
 </html>
