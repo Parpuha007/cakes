@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Wien';
+	src: url('../fonts/wien/Wien.ttf')format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Nautilus Pompilius';
+	src: url('../fonts/nautilus/Nautilus.otf')format('opentype');
+	font-style: normal;
+	font-weight: bold;
+}

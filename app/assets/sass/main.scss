@@ -72,6 +72,7 @@
 }
 .price {
 	height: 65px;
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -93,6 +94,7 @@
 	color: #fff;
 	float: right;
 	margin-right: 3%;
+	z-index: 2;
 
 	&:hover {
 		color: #46c2c6;
@@ -101,6 +103,48 @@
 }
 .container:last-child {
 	margin-bottom: 70px;
+}
+
+.counter {
+	height: 50px;
+	width: 150px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: absolute;
+	background-color: #fff;
+	right: 3%;
+	text-align: center;	
+	border-top: solid 1px #dcdcdc; 
+	border-bottom: solid 1px #dcdcdc;	
+}
+.counter_down, .counter_up {
+	padding: 0;
+	border: none;
+	width: 33%;
+	background-color: #46c2c6;
+	height: 100%;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: 'Wien';
+	color: #fff;
+}
+.counter_down {
+	float: right;
+}
+.counter_up {
+	float: left;
+}
+.counter_value {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	input {
+		text-align: center;
+		padding: 0;
+		width: 50px;
+	}
 }
 
 

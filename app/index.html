@@ -4,6 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Menu</title>
 	<link rel="stylesheet" href="dist/styles/import.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<style>
+		.none {
+			display: none;
+		}	
+
+		.block {
+			display: block;
+		}
+	</style>
 </head>
 <body>
 	<div class="wrapper">
@@ -21,7 +32,7 @@
 						<span>Ваш город: </span>
 					</div>
 					<div class="choose_city__select">
-						<select name="select" id="choose_city">
+						<select name="select">
 						    <option value="Санкт-Петербург">Санкт-Петербург</option>
 						    <option value="Москва">Москва</option>
 						    <option value="Казань">Казань</option>
@@ -173,6 +184,11 @@
 							<div class="price">
 								<p class="big-price">100 <span>руб.</span></p>
 								<button class="order">Заказать</button>
+								<div class="counter">
+									<button class="counter_down">-</button>
+									<div class='counter_value'><input type="text" value="0" class="counter_value_input"></div>
+									<button class="counter_up">+</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -184,6 +200,11 @@
 							<div class="price">
 								<p class="big-price">69 <span>руб.</span></p>
 								<button class="order">Заказать</button>
+								<div class="counter">
+									<button class="counter_down">-</button>
+									<div class='counter_value'><input type="text" value="0" class="counter_value_input"></div>
+									<button class="counter_up">+</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -195,6 +216,11 @@
 							<div class="price">
 								<p class="big-price"> <span></span></p>
 								<button class="order">Заказать</button>
+								<div class="counter">
+									<button class="counter_down">-</button>
+									<div class='counter_value'><input type="text" value="0" class="counter_value_input"></div>
+									<button class="counter_up">+</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -206,6 +232,11 @@
 							<div class="price">
 								<p class="big-price">1000 <span>руб.</span></p>
 								<button class="order">Заказать</button>
+								<div class="counter">
+									<button class="counter_down">-</button>
+									<div class='counter_value'><input type="text" value="0" class="counter_value_input"></div>
+									<button class="counter_up">+</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -219,6 +250,11 @@
 							<div class="price">
 								<p class="big-price"> <span></span></p>
 								<button class="order">Заказать</button>
+								<div class="counter">
+									<button class="counter_down">-</button>
+									<div class='counter_value'><input type="text" value="0" class="counter_value_input"></div>
+									<button class="counter_up">+</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -230,6 +266,11 @@
 							<div class="price">
 								<p class="big-price">100 <span>руб.</span></p>
 								<button class="order">Заказать</button>
+								<div class="counter">
+									<button class="counter_down">-</button>
+									<div class='counter_value'><input type="text" value="0" class="counter_value_input"></div>
+									<button class="counter_up">+</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -241,6 +282,11 @@
 							<div class="price">
 								<p class="big-price">1000 <span>руб.</span></p>
 								<button class="order">Заказать</button>
+								<div class="counter">
+									<button class="counter_down">-</button>
+									<div class='counter_value'><input type="text" value="0" class="counter_value_input"></div>
+									<button class="counter_up">+</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -252,6 +298,11 @@
 							<div class="price">
 								<p class="big-price">69 <span>руб.</span></p>
 								<button class="order">Заказать</button>
+								<div class="counter">
+									<button class="counter_down">-</button>
+									<div class='counter_value'><input type="text" value="0" class="counter_value_input"></div>
+									<button class="counter_up">+</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -260,11 +311,50 @@
 		</div>
 	</div>
 		<footer class="page-footer">
-			<div class="footer-container">
-				<table>
-					
-				</table>
+			
+				<div class="inline-items">
+					<a href="#">О компании</a>
+					<br>
+					<a href="#">Франшиза</a>
+				</div>
+				<div class="inline-items">
+					<a href="#">Меню</a>
+					<br>
+					<a href="#">Магазины</a>
+				</div>
+				<div class="inline-items">
+					<a href="#">Акции</a>
+					<br>
+					<a href="#">Пищевая ценность</a>
+				</div>
+				<div class="inline-items">
+					<a href="#">Вакансии</a>
+					<br>
+					<a href="#">Контакты</a>
+				</div>
+				<div class="inline-items">
+					<a href="#">
+						<img src="" alt="footer-img">
+						promozhanrua@gmail.com
+					</a>
+					<br>
+					<a href="#">
+						<img src="" alt="footer-img">
+						Санкт-Петербург
+					</a>
+				</div>
+				<div class="inline-items">
+					<a href="#">
+						<img src="" alt="footer-img">
+						пн-вс: 10:00 - 22:00
+					</a>
+					<br>
+					<a href="#">
+						<img src="" alt="footer-img">
+						8(812)347-88-99
+					</a>
 			</div>
+
 		</footer>
 		<script src="libs/jquery/dist/jquery.min.js"></script>
 		<script src="js/common.js"></script>
